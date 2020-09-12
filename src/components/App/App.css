@@ -1,10 +1,14 @@
 :root {
-  --main-color:#26a69a;
+  --main-color: #26a69a;
 }
 
 body {
-  background-color: var(--main-color) ;
-  font-family: 'ZCOOL KuaiLe', cursive;
+  background-color: var(--main-color);
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+
+.react-calendar-heatmap text {
+  fill: white;
 }
 
 input {
@@ -21,17 +25,17 @@ input:focus {
 }
 
 .select-wrapper .caret {
-  right:3rem;
+  right: 3rem;
 }
 
-label { 
+label {
   display: block;
   color: #fff !important;
   font-size: 1rem !important;
 }
 
 .datepicker-day-button {
-  color:black;
+  color: black;
 }
 
 .submit-btn {
